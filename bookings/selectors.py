@@ -9,15 +9,16 @@ from permissions.services import check_entity_permission
 from permissions.constants import EntityConstants
 
 
-def get_arrivals(*, location: Location, user: User) -> dict:
+def get_arrivals(*, location: Location, user: User=None) -> dict:
     """
     Returns Bookings info for the last three days
     """
-    check_entity_permission(
-        entity=EntityConstants.VIEW_ARRIVALS,
-        user=user,
-        location=location
-    )
+    if user is not None:
+        check_entity_permission(
+            entity=EntityConstants.VIEW_ARRIVALS,
+            user=user,
+            location=location
+        )
 
     arrival_dates = [
         date.today() - timedelta(days=1),

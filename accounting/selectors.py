@@ -29,7 +29,7 @@ def get_sales_report(*, location: Location, user: User) -> dict:
         'refunds': sum(refunds)
     }
 
-    arrivals = get_arrivals(location=location, user=user)
+    arrivals = get_arrivals(location=location)
     today_arrivals = arrivals.get(str(date.today()), [])
 
     return {'report': report, 'arrivals': sum(x['rent'] for x in today_arrivals)}
