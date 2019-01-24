@@ -16,7 +16,8 @@ def get_arrivals(*, location: Location, user: User) -> dict:
     check_entity_permission(
         entity=EntityConstants.VIEW_ARRIVALS,
         user=user,
-        location=location
+        location=location,
+        caller=get_arrivals  # Very important!
     )
 
     arrival_dates = [

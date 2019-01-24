@@ -8,6 +8,7 @@ from bookings.selectors import get_arrivals
 
 from permissions.services import check_entity_permission
 from permissions.constants import EntityConstants
+from permissions.utils import skip_permissions
 
 
 def get_sales_report(*, location: Location, user: User) -> dict:
@@ -29,7 +30,9 @@ def get_sales_report(*, location: Location, user: User) -> dict:
         'refunds': sum(refunds)
     }
 
-    arrivals = get_arrivals(location=location, user=user)
+    with skip_permissions(get_arrivals) as get_arrivals_:
+        arrivals = get_arrivals_(location=location, user=user)
+
     today_arrivals = arrivals.get(str(date.today()), [])
 
     return {'report': report, 'arrivals': sum(x['rent'] for x in today_arrivals)}
