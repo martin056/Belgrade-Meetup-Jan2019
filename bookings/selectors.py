@@ -7,16 +7,19 @@ from bookings.models import Booking
 
 from permissions.services import check_entity_permission
 from permissions.constants import EntityConstants
+from permissions.utils import with_optional_permissions
 
 
-def get_arrivals(*, location: Location, user: User) -> dict:
+@with_optional_permissions(bind=True)
+def get_arrivals(self, *, location: Location, user: User) -> dict:
     """
     Returns Bookings info for the last three days
     """
     check_entity_permission(
         entity=EntityConstants.VIEW_ARRIVALS,
         user=user,
-        location=location
+        location=location,
+        caller=self  # Still very important!
     )
 
     arrival_dates = [

@@ -4,9 +4,20 @@ from locations.models import Location
 
 from permissions.constants import Entity
 from permissions.exceptions import NoEntityPermissionException
+from permissions.utils import Caller
 
 
-def check_entity_permission(*, user: User, entity: Entity, location: Location) -> None:
+def check_entity_permission(
+    *,
+    user: User,
+    entity: Entity,
+    location: Location,
+    caller: Caller=None
+) -> None:
+    print(caller)
+    if isinstance(caller, Caller) and caller._skip_permission_checks:
+        return
+
     if user.is_superuser:
         return
 
