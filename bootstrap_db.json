@@ -1,0 +1,1880 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "locations",
+    "model": "location"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "bookings",
+    "model": "booking"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounting",
+    "model": "creditnote"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "accounting",
+    "model": "invoice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "accounting",
+    "model": "payment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "accounting",
+    "model": "refund"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "permissions",
+    "model": "team"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "permissions",
+    "model": "teammembership"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "permissions",
+    "model": "teampermission"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zllkzzuzj8ak64v58k2ts5s2hjropy3w",
+  "fields": {
+    "session_data": "NTk4MmE2ZmYxOTZmYmZhNjU3ZGMyOTZkZTM5MmRlZmU3N2VjZWIzMzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiJmYTc0ZjYxZDgzZWY4OWU0MTQ5YzViYzcyYmMwOGM4Mjk5M2ZkZTUyIn0=",
+    "expire_date": "2019-02-13T12:18:04.204Z"
+  }
+},
+{
+  "model": "locations.location",
+  "pk": 1,
+  "fields": {
+    "ref": "demo"
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 1,
+  "fields": {
+    "rent": 73,
+    "created_at": "2019-01-30",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 2,
+  "fields": {
+    "rent": 75,
+    "created_at": "2019-01-31",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 3,
+  "fields": {
+    "rent": 16,
+    "created_at": "2019-02-01",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 4,
+  "fields": {
+    "rent": 83,
+    "created_at": "2019-02-02",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 5,
+  "fields": {
+    "rent": 79,
+    "created_at": "2019-02-03",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 6,
+  "fields": {
+    "rent": 15,
+    "created_at": "2019-02-04",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 7,
+  "fields": {
+    "rent": 8,
+    "created_at": "2019-02-05",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 8,
+  "fields": {
+    "rent": 20,
+    "created_at": "2019-02-06",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 9,
+  "fields": {
+    "rent": 82,
+    "created_at": "2019-02-07",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 10,
+  "fields": {
+    "rent": 2,
+    "created_at": "2019-02-08",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 11,
+  "fields": {
+    "rent": 9,
+    "created_at": "2019-02-09",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 12,
+  "fields": {
+    "rent": 57,
+    "created_at": "2019-02-10",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 13,
+  "fields": {
+    "rent": 44,
+    "created_at": "2019-02-11",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 14,
+  "fields": {
+    "rent": 8,
+    "created_at": "2019-02-12",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 15,
+  "fields": {
+    "rent": 30,
+    "created_at": "2019-02-13",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 16,
+  "fields": {
+    "rent": 1,
+    "created_at": "2019-02-14",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 17,
+  "fields": {
+    "rent": 65,
+    "created_at": "2019-02-15",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 18,
+  "fields": {
+    "rent": 71,
+    "created_at": "2019-02-16",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 19,
+  "fields": {
+    "rent": 41,
+    "created_at": "2019-02-17",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 20,
+  "fields": {
+    "rent": 47,
+    "created_at": "2019-02-18",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 21,
+  "fields": {
+    "rent": 25,
+    "created_at": "2019-02-19",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 22,
+  "fields": {
+    "rent": 26,
+    "created_at": "2019-02-20",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 23,
+  "fields": {
+    "rent": 87,
+    "created_at": "2019-02-21",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 24,
+  "fields": {
+    "rent": 7,
+    "created_at": "2019-02-22",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 25,
+  "fields": {
+    "rent": 59,
+    "created_at": "2019-02-23",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 26,
+  "fields": {
+    "rent": 73,
+    "created_at": "2019-02-24",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 27,
+  "fields": {
+    "rent": 12,
+    "created_at": "2019-02-25",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 28,
+  "fields": {
+    "rent": 42,
+    "created_at": "2019-02-26",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 29,
+  "fields": {
+    "rent": 69,
+    "created_at": "2019-02-27",
+    "location": 1
+  }
+},
+{
+  "model": "bookings.booking",
+  "pk": 30,
+  "fields": {
+    "rent": 85,
+    "created_at": "2019-02-28",
+    "location": 1
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 1,
+  "fields": {
+    "amount": 95,
+    "booking": 1
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 2,
+  "fields": {
+    "amount": 40,
+    "booking": 2
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 3,
+  "fields": {
+    "amount": 47,
+    "booking": 3
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 4,
+  "fields": {
+    "amount": 61,
+    "booking": 4
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 5,
+  "fields": {
+    "amount": 37,
+    "booking": 5
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 6,
+  "fields": {
+    "amount": 49,
+    "booking": 6
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 7,
+  "fields": {
+    "amount": 31,
+    "booking": 7
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 8,
+  "fields": {
+    "amount": 72,
+    "booking": 8
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 9,
+  "fields": {
+    "amount": 3,
+    "booking": 9
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 10,
+  "fields": {
+    "amount": 82,
+    "booking": 10
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 11,
+  "fields": {
+    "amount": 77,
+    "booking": 11
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 12,
+  "fields": {
+    "amount": 64,
+    "booking": 12
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 13,
+  "fields": {
+    "amount": 15,
+    "booking": 13
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 14,
+  "fields": {
+    "amount": 41,
+    "booking": 14
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 15,
+  "fields": {
+    "amount": 91,
+    "booking": 15
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 16,
+  "fields": {
+    "amount": 37,
+    "booking": 16
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 17,
+  "fields": {
+    "amount": 63,
+    "booking": 17
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 18,
+  "fields": {
+    "amount": 75,
+    "booking": 18
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 19,
+  "fields": {
+    "amount": 98,
+    "booking": 19
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 20,
+  "fields": {
+    "amount": 77,
+    "booking": 20
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 21,
+  "fields": {
+    "amount": 67,
+    "booking": 21
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 22,
+  "fields": {
+    "amount": 0,
+    "booking": 22
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 23,
+  "fields": {
+    "amount": 98,
+    "booking": 23
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 24,
+  "fields": {
+    "amount": 91,
+    "booking": 24
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 25,
+  "fields": {
+    "amount": 49,
+    "booking": 25
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 26,
+  "fields": {
+    "amount": 9,
+    "booking": 26
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 27,
+  "fields": {
+    "amount": 2,
+    "booking": 27
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 28,
+  "fields": {
+    "amount": 0,
+    "booking": 28
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 29,
+  "fields": {
+    "amount": 95,
+    "booking": 29
+  }
+},
+{
+  "model": "accounting.invoice",
+  "pk": 30,
+  "fields": {
+    "amount": 26,
+    "booking": 30
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 1,
+  "fields": {
+    "amount": 17,
+    "invoice": 1
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 2,
+  "fields": {
+    "amount": 67,
+    "invoice": 2
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 3,
+  "fields": {
+    "amount": 75,
+    "invoice": 3
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 4,
+  "fields": {
+    "amount": 10,
+    "invoice": 4
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 5,
+  "fields": {
+    "amount": 7,
+    "invoice": 5
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 6,
+  "fields": {
+    "amount": 69,
+    "invoice": 6
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 7,
+  "fields": {
+    "amount": 58,
+    "invoice": 7
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 8,
+  "fields": {
+    "amount": 97,
+    "invoice": 8
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 9,
+  "fields": {
+    "amount": 14,
+    "invoice": 9
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 10,
+  "fields": {
+    "amount": 29,
+    "invoice": 10
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 11,
+  "fields": {
+    "amount": 35,
+    "invoice": 11
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 12,
+  "fields": {
+    "amount": 65,
+    "invoice": 12
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 13,
+  "fields": {
+    "amount": 60,
+    "invoice": 13
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 14,
+  "fields": {
+    "amount": 58,
+    "invoice": 14
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 15,
+  "fields": {
+    "amount": 83,
+    "invoice": 15
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 16,
+  "fields": {
+    "amount": 77,
+    "invoice": 16
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 17,
+  "fields": {
+    "amount": 17,
+    "invoice": 17
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 18,
+  "fields": {
+    "amount": 20,
+    "invoice": 18
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 19,
+  "fields": {
+    "amount": 8,
+    "invoice": 19
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 20,
+  "fields": {
+    "amount": 46,
+    "invoice": 20
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 21,
+  "fields": {
+    "amount": 2,
+    "invoice": 21
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 22,
+  "fields": {
+    "amount": 70,
+    "invoice": 22
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 23,
+  "fields": {
+    "amount": 36,
+    "invoice": 23
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 24,
+  "fields": {
+    "amount": 81,
+    "invoice": 24
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 25,
+  "fields": {
+    "amount": 76,
+    "invoice": 25
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 26,
+  "fields": {
+    "amount": 15,
+    "invoice": 26
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 27,
+  "fields": {
+    "amount": 26,
+    "invoice": 27
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 28,
+  "fields": {
+    "amount": 78,
+    "invoice": 28
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 29,
+  "fields": {
+    "amount": 52,
+    "invoice": 29
+  }
+},
+{
+  "model": "accounting.payment",
+  "pk": 30,
+  "fields": {
+    "amount": 37,
+    "invoice": 30
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 1,
+  "fields": {
+    "amount": 99,
+    "booking": 1
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 2,
+  "fields": {
+    "amount": 35,
+    "booking": 2
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 3,
+  "fields": {
+    "amount": 89,
+    "booking": 3
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 4,
+  "fields": {
+    "amount": 65,
+    "booking": 4
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 5,
+  "fields": {
+    "amount": 3,
+    "booking": 5
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 6,
+  "fields": {
+    "amount": 12,
+    "booking": 6
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 7,
+  "fields": {
+    "amount": 46,
+    "booking": 7
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 8,
+  "fields": {
+    "amount": 19,
+    "booking": 8
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 9,
+  "fields": {
+    "amount": 72,
+    "booking": 9
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 10,
+  "fields": {
+    "amount": 61,
+    "booking": 10
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 11,
+  "fields": {
+    "amount": 87,
+    "booking": 11
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 12,
+  "fields": {
+    "amount": 62,
+    "booking": 12
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 13,
+  "fields": {
+    "amount": 7,
+    "booking": 13
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 14,
+  "fields": {
+    "amount": 56,
+    "booking": 14
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 15,
+  "fields": {
+    "amount": 44,
+    "booking": 15
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 16,
+  "fields": {
+    "amount": 60,
+    "booking": 16
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 17,
+  "fields": {
+    "amount": 39,
+    "booking": 17
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 18,
+  "fields": {
+    "amount": 76,
+    "booking": 18
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 19,
+  "fields": {
+    "amount": 69,
+    "booking": 19
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 20,
+  "fields": {
+    "amount": 43,
+    "booking": 20
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 21,
+  "fields": {
+    "amount": 45,
+    "booking": 21
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 22,
+  "fields": {
+    "amount": 85,
+    "booking": 22
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 23,
+  "fields": {
+    "amount": 61,
+    "booking": 23
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 24,
+  "fields": {
+    "amount": 85,
+    "booking": 24
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 25,
+  "fields": {
+    "amount": 52,
+    "booking": 25
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 26,
+  "fields": {
+    "amount": 79,
+    "booking": 26
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 27,
+  "fields": {
+    "amount": 32,
+    "booking": 27
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 28,
+  "fields": {
+    "amount": 60,
+    "booking": 28
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 29,
+  "fields": {
+    "amount": 27,
+    "booking": 29
+  }
+},
+{
+  "model": "accounting.creditnote",
+  "pk": 30,
+  "fields": {
+    "amount": 77,
+    "booking": 30
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 1,
+  "fields": {
+    "amount": 84,
+    "credit_note": 1
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 2,
+  "fields": {
+    "amount": 95,
+    "credit_note": 2
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 3,
+  "fields": {
+    "amount": 94,
+    "credit_note": 3
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 4,
+  "fields": {
+    "amount": 21,
+    "credit_note": 4
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 5,
+  "fields": {
+    "amount": 86,
+    "credit_note": 5
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 6,
+  "fields": {
+    "amount": 48,
+    "credit_note": 6
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 7,
+  "fields": {
+    "amount": 24,
+    "credit_note": 7
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 8,
+  "fields": {
+    "amount": 45,
+    "credit_note": 8
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 9,
+  "fields": {
+    "amount": 59,
+    "credit_note": 9
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 10,
+  "fields": {
+    "amount": 57,
+    "credit_note": 10
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 11,
+  "fields": {
+    "amount": 86,
+    "credit_note": 11
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 12,
+  "fields": {
+    "amount": 64,
+    "credit_note": 12
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 13,
+  "fields": {
+    "amount": 56,
+    "credit_note": 13
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 14,
+  "fields": {
+    "amount": 99,
+    "credit_note": 14
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 15,
+  "fields": {
+    "amount": 25,
+    "credit_note": 15
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 16,
+  "fields": {
+    "amount": 53,
+    "credit_note": 16
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 17,
+  "fields": {
+    "amount": 92,
+    "credit_note": 17
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 18,
+  "fields": {
+    "amount": 71,
+    "credit_note": 18
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 19,
+  "fields": {
+    "amount": 25,
+    "credit_note": 19
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 20,
+  "fields": {
+    "amount": 69,
+    "credit_note": 20
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 21,
+  "fields": {
+    "amount": 39,
+    "credit_note": 21
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 22,
+  "fields": {
+    "amount": 47,
+    "credit_note": 22
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 23,
+  "fields": {
+    "amount": 64,
+    "credit_note": 23
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 24,
+  "fields": {
+    "amount": 86,
+    "credit_note": 24
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 25,
+  "fields": {
+    "amount": 6,
+    "credit_note": 25
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 26,
+  "fields": {
+    "amount": 58,
+    "credit_note": 26
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 27,
+  "fields": {
+    "amount": 95,
+    "credit_note": 27
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 28,
+  "fields": {
+    "amount": 52,
+    "credit_note": 28
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 29,
+  "fields": {
+    "amount": 42,
+    "credit_note": 29
+  }
+},
+{
+  "model": "accounting.refund",
+  "pk": 30,
+  "fields": {
+    "amount": 85,
+    "credit_note": 30
+  }
+},
+{
+  "model": "permissions.team",
+  "pk": 1,
+  "fields": {
+    "name": "Sales",
+    "locations": [
+      1
+    ]
+  }
+},
+{
+  "model": "permissions.team",
+  "pk": 2,
+  "fields": {
+    "name": "Bookings",
+    "locations": [
+      1
+    ]
+  }
+},
+{
+  "model": "permissions.teampermission",
+  "pk": 1,
+  "fields": {
+    "team": 1,
+    "entity": "view_sales_report",
+    "value": true
+  }
+},
+{
+  "model": "permissions.teampermission",
+  "pk": 2,
+  "fields": {
+    "team": 1,
+    "entity": "view_arrivals",
+    "value": false
+  }
+},
+{
+  "model": "permissions.teampermission",
+  "pk": 3,
+  "fields": {
+    "team": 2,
+    "entity": "view_sales_report",
+    "value": false
+  }
+},
+{
+  "model": "permissions.teampermission",
+  "pk": 4,
+  "fields": {
+    "team": 2,
+    "entity": "view_arrivals",
+    "value": true
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add location",
+    "content_type": 7,
+    "codename": "add_location"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change location",
+    "content_type": 7,
+    "codename": "change_location"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete location",
+    "content_type": 7,
+    "codename": "delete_location"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add booking",
+    "content_type": 8,
+    "codename": "add_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change booking",
+    "content_type": 8,
+    "codename": "change_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete booking",
+    "content_type": 8,
+    "codename": "delete_booking"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add credit note",
+    "content_type": 9,
+    "codename": "add_creditnote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change credit note",
+    "content_type": 9,
+    "codename": "change_creditnote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete credit note",
+    "content_type": 9,
+    "codename": "delete_creditnote"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add invoice",
+    "content_type": 10,
+    "codename": "add_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change invoice",
+    "content_type": 10,
+    "codename": "change_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete invoice",
+    "content_type": 10,
+    "codename": "delete_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add payment",
+    "content_type": 11,
+    "codename": "add_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change payment",
+    "content_type": 11,
+    "codename": "change_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete payment",
+    "content_type": 11,
+    "codename": "delete_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can add refund",
+    "content_type": 12,
+    "codename": "add_refund"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can change refund",
+    "content_type": 12,
+    "codename": "change_refund"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can delete refund",
+    "content_type": 12,
+    "codename": "delete_refund"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add team",
+    "content_type": 13,
+    "codename": "add_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change team",
+    "content_type": 13,
+    "codename": "change_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete team",
+    "content_type": 13,
+    "codename": "delete_team"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can add team membership",
+    "content_type": 14,
+    "codename": "add_teammembership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can change team membership",
+    "content_type": 14,
+    "codename": "change_teammembership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can delete team membership",
+    "content_type": 14,
+    "codename": "delete_teammembership"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add team permission",
+    "content_type": 15,
+    "codename": "add_teampermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change team permission",
+    "content_type": 15,
+    "codename": "change_teampermission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete team permission",
+    "content_type": 15,
+    "codename": "delete_teampermission"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$05ozA3GmZITP$lfW/8LY0oNFuqNI8bh3q8CbAqf6ZnQj0FgbOrLu6Xgw=",
+    "last_login": "2019-01-30T12:18:04.161Z",
+    "is_superuser": false,
+    "username": "sales",
+    "first_name": "Sales",
+    "last_name": "Sales",
+    "email": "sales_user@hacksoft.io",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-01-30T12:17:22.941Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$9Czp6TOxy7sf$B0gEMp/aDRHOWk2/X3l0/lyagcCJ1pgG2DxoSN4lubU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "bookings",
+    "first_name": "Bookings",
+    "last_name": "Bookings",
+    "email": "bookings_user@hacksoft.io",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2019-01-30T12:17:23.100Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "permissions.teammembership",
+  "pk": 1,
+  "fields": {
+    "member": 1,
+    "team": 1
+  }
+},
+{
+  "model": "permissions.teammembership",
+  "pk": 2,
+  "fields": {
+    "member": 2,
+    "team": 2
+  }
+}
+]
