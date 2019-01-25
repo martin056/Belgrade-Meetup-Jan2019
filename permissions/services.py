@@ -14,8 +14,8 @@ def check_entity_permission(
     location: Location,
     caller: Caller=None
 ) -> None:
-    print(caller)
     if isinstance(caller, Caller) and caller._skip_permission_checks:
+        print(f'Caller: {caller}')
         return
 
     if user.is_superuser:

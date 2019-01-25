@@ -15,6 +15,9 @@ def get_arrivals(self, *, location: Location, user: User) -> dict:
     """
     Returns Bookings info for the last three days
     """
+    import time
+    time.sleep(5)
+
     check_entity_permission(
         entity=EntityConstants.VIEW_ARRIVALS,
         user=user,
