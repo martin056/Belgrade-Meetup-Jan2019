@@ -47,9 +47,10 @@ Bookings Team user:
 
 ## Branches roadmap
 
-* `first-example` - The initial structure of the project
+* `master` - The initial structure of the project
 * `the-problem` - Introduces the problem we are solving
 * `first-solution` - Adds the first temporary solution - duplicates logic
 * `second-solution` - Adds the second temporary solution - optional arguments
 * `third-solution` - Adds a solution with nice interface but introduces bug with a race condition
 * `fourth-slution` - Final solution
+* `fifth-solution` - It's a Proof of concept. I didn't show it on the meetup. I came up with this solution after the meetup.
