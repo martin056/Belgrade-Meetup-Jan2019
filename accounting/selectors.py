@@ -29,6 +29,7 @@ def get_sales_report(*, location: Location, user: User) -> dict:
         'refunds': sum(refunds)
     }
 
+    print(f'Original: {get_arrivals}')
     get_arrivals_ = get_arrivals.skip_permissions()
     arrivals = get_arrivals_(location=location, user=user)
 
